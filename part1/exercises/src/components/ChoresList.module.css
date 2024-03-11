@@ -1,7 +1,12 @@
 .choresText {
-   color: black;
+   color: rgb(8, 88, 12);
+   font-size: 20px;
+   font-style: italic;
 }
 
 .choresHeading {
-   color: black;
+   color: rgb(66, 138, 24);
+   font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 24px;
+   text-decoration: underline;
 }
