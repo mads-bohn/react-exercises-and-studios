@@ -1,30 +1,30 @@
 { "projects": [
    {
-      "pattern": "Strawberry Hat",
+      "name": "Strawberry Hat",
       "designer": "StitchedIntoBeing",
       "photoUrl": "https://i.etsystatic.com/27491855/r/il/d8564b/4300898797/il_794xN.4300898797_q8n7.jpg",
       "difficulty": "Easy"
    },
    {
-      "pattern": "Queen Card Tapestry",
+      "name": "Queen Card Tapestry",
       "designer": "YrnOvrStudios",
       "photoUrl": "https://i.etsystatic.com/42468408/r/il/e25def/5529382759/il_794xN.5529382759_pydf.jpg",
       "difficulty": "Intermediate"
    },
    {
-      "pattern": "Hermit the Frog Purse",
+      "name": "Hermit the Frog Purse",
       "designer": "MelancholyDaydreamz",
       "photoUrl": "https://i.etsystatic.com/36968346/r/il/952c42/4417155063/il_794xN.4417155063_9gh2.jpg",
       "difficulty": "Intermediate"
    },
    {
-      "pattern": "Summer Night Shawl",
+      "name": "Summer Night Shawl",
       "designer": "Morben Design",
       "photoUrl": "https://d2tk9av7ph0ga6.cloudfront.net/image/catalog/2020/11/summer-night3-cotton-king-twirls-deluxe-14-square-700xauto.jpg",
       "difficulty": "Experienced"
    },
    {
-      "pattern": "Mandala Blanket",
+      "name": "Mandala Blanket",
       "designer": "Catkitbob Designs",
       "photoUrl": "https://d2tk9av7ph0ga6.cloudfront.net/image/catalog/2023/11/img-2450-700xauto.jpeg",
       "difficulty": "Intermediate"

@@ -4,28 +4,28 @@ import { useState } from 'react';
 export default function MyProjects() {
    const [index, setIndex] = useState(0);
 
-  function handleClick() {
-   if (index < data.projects.length-1)
-   {
-      setIndex(index + 1);
-   }
-   else
-   {
-      setIndex(0);
-   }
-  }
+   let patterns = data.projects;
+   let pattern = patterns[index];
 
-  let projects = data.projects;
-  let project = projects[index];
+   function handleClick() {
+    if (index < data.projects.length-1)
+    {
+       setIndex(index + 1);
+    }
+    else 
+    {
+       setIndex(0);
+    }
+ }
 
   return (
-    <div>
-      <button onClick={handleClick}>
-        Next
-      </button>
-      <h2>{project.canvas} by {project.designer}
-      </h2>
-      <img src={project.photoUrl} alt={project.alt} />
-    </div>
+    <>
+      <h2>{pattern.name}</h2>
+      <h3>Designed by {pattern.designer}</h3>
+      <p>Difficulty: {pattern.difficulty}</p>
+      <img src={pattern.photoUrl} alt={pattern.name} className="project"></img>
+      <br/>
+      <button onClick={handleClick}>Next</button>
+    </>
   );
 }
